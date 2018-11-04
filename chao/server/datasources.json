@@ -1,6 +1,18 @@
 {
+  "myfile": {
+    "name": "myfile",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage"
+  },
   "db": {
-    "name": "db",
-    "connector": "memory"
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "sdwandb",
+    "password": "",
+    "name": "mongoDS",
+    "user": "",
+    "connector": "mongodb"
   }
 }
